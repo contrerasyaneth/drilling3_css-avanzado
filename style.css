@@ -1,5 +1,45 @@
-h1 {
-  background: blue;
+header {
+  background-color: rgb(14, 14, 143);
+  color: aliceblue;
+  text-align: center;
+  padding: 2%;
+}
+
+.parrafo {
+  text-align: center;
+}
+
+.menu {
+  background-image: url("./tecnologia.jpg");
+}
+.menu__parrafo1 {
+  color: red;
+  font-family: 5;
+  width: 50%;
+  padding: 30%;
+  font-size: x-large;
+}
+.menu__parrafo2 {
+  color: aliceblue;
+}
+.menu__section {
+  display: flex;
+  flex-direction: row;
+}
+.menu__titulo {
+  color: aliceblue;
+  text-align: center;
+}
+.menu__caja1 {
+  width: 30%;
+  background: red;
+  margin-left: 1%;
+}
+.menu__numero {
+  background: gray;
+  width: 10%;
+  margin-left: 90%;
+  color: aliceblue;
 }
 
 /*# sourceMappingURL=style.css.map */
